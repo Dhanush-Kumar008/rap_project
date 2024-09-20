@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:violet;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+#bgimg{
+    background-image: url('https://as2.ftcdn.net/v2/jpg/05/69/86/11/1000_F_569861106_vTXD4eWvF0VMBzUxteemkZ4K5dmyx2C9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#bgdiv{
+    position:absolute;
+    z-index: 3;
+    margin-top: 15%;
+    margin-left: 7%;
+    color:violet;
+}
+
+#bgdiv h2{
+    font-size: xx-large;
+    
+}
+
+#bgdiv button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 13px;
+    background-color: transparent;
+    border-color: violet;
+    color:violet;
+}
+
+body{
+    background-color: #700070;
+}
+
+#div1{
+    position:absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    top: 70%;
+    align-items: center;
+}
+
+#div1 p{
+    margin-top: 5px;
+}
+
+#threediv{
+    position:absolute;
+    z-index: 3;
+    display: flex;
+    top: 85%;
+    padding-right: 30px;
+
+}
+
+#threediv div{
+    flex-basis: 33%;
+    background-color: white;
+    color:black;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+   
+}
+
+#threediv div:hover{
+    box-shadow: rgba(0, 0, 0, 0.966) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+@media screen and (max-width:680px) {
+    #threediv {
+        flex-direction: column;
+    }
+
+    #threediv div{
+        margin-top: 70px;
+    }
+
+    #bgdiv{
+        margin-top: 60PX;
+    }
+
+    #div1{
+        text-align: center;
+    }
+
+
+    
+}
+
+#threediv div i{
+    margin-bottom: 5px;
+}
+
+#threediv div p{
+    margin-top: 10px;
+}
+
+#div2{
+    position: absolute;
+    z-index: 3;
+    top:115%;
+    text-align: center;
+
+}
+
+#div2 h2{
+    margin-bottom: 20px;
+}
+
+#lastdiv{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    top: 130%;
+    font-size: large;
+    
+}
+
+#lastdiv p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#lastdiv img{
+    height: 300px;
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+}
